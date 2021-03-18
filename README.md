@@ -13,8 +13,9 @@ Each folder has its own package.json which shows commands to use as well as a RE
     - Verify that ther is a Skill ID in the `app\platforms\alexaSkill\.ask\config` file.
 3. Do a `jovo deploy`.
 4. In `app\src\app.ts` in the LAUNCH() handler, set the URL to the S3 bucket of the web deployed web app.
-5. Run `jovo run --inspect 3003`
-6. Click on the webhook link in the terminal to open the Jovo Debugger.
+5. On Alexa Console open skill, go to interfaces and enable Game Web API.
+6. Run `jovo run --inspect 3003`
+7. Click on the webhook link in the terminal to open the Jovo Debugger.
 
 Note: You must run the Alexa Skill from a device to see the HTML pages.
 
